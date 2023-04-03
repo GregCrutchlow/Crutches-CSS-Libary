@@ -3658,17 +3658,329 @@ html {
           justify-content: flex-end;
 }
 
-.btn {
-  border: 0;
-  border-radius: 10px;
-  padding: 0.75rem;
-  max-width: -webkit-fit-content;
-  max-width: -moz-fit-content;
-  max-width: fit-content;
+.btn-primary {
+  text-decoration: none;
   cursor: pointer;
-}
-.btn:hover {
+  display: inline-block;
   border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 10px;
+  background-color: #326dee;
+}
+
+.btn-outlined-primary {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 2px solid #326dee;
+  padding: 0.75rem 1.5rem;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+}
+.btn-outlined-primary:hover {
+  border: 2px solid #326dee;
+  background-color: #326dee;
+}
+
+.btn-secondary {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 10px;
+  background-color: #1ac888;
+}
+
+.btn-outlined-secondary {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 2px solid #1ac888;
+  padding: 0.75rem 1.5rem;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+}
+.btn-outlined-secondary:hover {
+  border: 2px solid #1ac888;
+  background-color: #1ac888;
+}
+
+.btn-error {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 10px;
+  background-color: #d32752;
+}
+
+.btn-outlined-error {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 2px solid #d32752;
+  padding: 0.75rem 1.5rem;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+}
+.btn-outlined-error:hover {
+  border: 2px solid #d32752;
+  background-color: #d32752;
+}
+
+.btn-info {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 10px;
+  background-color: #f6c31c;
+}
+
+.btn-outlined-info {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 2px solid #f6c31c;
+  padding: 0.75rem 1.5rem;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+}
+.btn-outlined-info:hover {
+  border: 2px solid #f6c31c;
+  background-color: #f6c31c;
+}
+
+.btn-red {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 10px;
+  background-color: #e61919;
+}
+
+.btn-outlined-red {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 2px solid #e61919;
+  padding: 0.75rem 1.5rem;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+}
+.btn-outlined-red:hover {
+  border: 2px solid #e61919;
+  background-color: #e61919;
+}
+
+.btn-orange {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 10px;
+  background-color: #ffa600;
+}
+
+.btn-outlined-orange {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 2px solid #ffa600;
+  padding: 0.75rem 1.5rem;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+}
+.btn-outlined-orange:hover {
+  border: 2px solid #ffa600;
+  background-color: #ffa600;
+}
+
+.btn-yellow {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 10px;
+  background-color: #e6e619;
+}
+
+.btn-outlined-yellow {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 2px solid #e6e619;
+  padding: 0.75rem 1.5rem;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+}
+.btn-outlined-yellow:hover {
+  border: 2px solid #e6e619;
+  background-color: #e6e619;
+}
+
+.btn-green {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 10px;
+  background-color: #19e635;
+}
+
+.btn-outlined-green {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 2px solid #19e635;
+  padding: 0.75rem 1.5rem;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+}
+.btn-outlined-green:hover {
+  border: 2px solid #19e635;
+  background-color: #19e635;
+}
+
+.btn-blue {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 10px;
+  background-color: #1919e6;
+}
+
+.btn-outlined-blue {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 2px solid #1919e6;
+  padding: 0.75rem 1.5rem;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+}
+.btn-outlined-blue:hover {
+  border: 2px solid #1919e6;
+  background-color: #1919e6;
+}
+
+.btn-purple {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 10px;
+  background-color: #9900ff;
+}
+
+.btn-outlined-purple {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 2px solid #9900ff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+}
+.btn-outlined-purple:hover {
+  border: 2px solid #9900ff;
+  background-color: #9900ff;
+}
+
+.btn-gray {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 10px;
+  background-color: #808080;
+}
+
+.btn-outlined-gray {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 2px solid #808080;
+  padding: 0.75rem 1.5rem;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+}
+.btn-outlined-gray:hover {
+  border: 2px solid #808080;
+  background-color: #808080;
+}
+
+.btn-black {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 10px;
+  background-color: black;
+}
+
+.btn-outlined-black {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 2px solid black;
+  padding: 0.75rem 1.5rem;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+}
+.btn-outlined-black:hover {
+  border: 2px solid black;
+  background-color: black;
+}
+
+.btn-white {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  padding: 0.75rem 1.5rem;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.btn-outlined-white {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: 2px solid white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 10px;
+  background-color: white;
+  color: black;
+}
+.btn-outlined-white:hover {
+  border: 2px solid white;
+  background-color: white;
 }
 
 body {
