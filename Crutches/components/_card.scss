@@ -1,0 +1,41 @@
+@use 'sass:math';
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: $base-padding;
+    border: $base-border-thickness solid #ddd;
+    box-shadow: $base-box-shadow;
+    border-radius: math.div($base-border-radius, 2);
+    max-width: 500px;
+    max-height: 500px;
+    overflow: hidden;
+    margin: $base-margin;
+    
+    .card-title {
+        font-size: $font-size-xl;
+        padding-bottom: none;
+        margin: $base-margin 0;
+        font-weight: 700;
+
+    }
+
+    .border-bottom {
+        height: $base-border-thickness * 2;
+        width: 50%;
+    }
+    
+    .card-body {
+        font-size: $base-font-size;
+        padding: $base-padding 0;
+        margin: $base-margin 0;
+        a {
+            text-decoration: none;
+            color: map-get($colors, 'info' );
+        }
+    }
+    .button-right {
+        display: flex;
+        justify-content: flex-end;
+    }
+}

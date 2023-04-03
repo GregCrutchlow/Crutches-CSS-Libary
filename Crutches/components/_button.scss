@@ -1,0 +1,14 @@
+@use "sass:math";
+
+.btn {
+    border: 0;
+    border-radius: math.div($base-border-radius, 2);
+    padding: $base-padding;
+    max-width: fit-content;
+    cursor: pointer;
+
+    &:hover {
+        border: 0;
+        
+    }
+}
