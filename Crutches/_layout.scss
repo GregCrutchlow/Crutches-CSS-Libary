@@ -1,0 +1,28 @@
+
+.sections {
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+    .button_boxes {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: $base-padding;
+        margin: $base-margin;
+        border: $base-border-thickness solid $primary;
+        box-shadow: $base-box-shadow;
+        min-width: 250px;
+        max-width: 250px;
+        
+        p {
+        text-align: center;
+        }
+    }
+}

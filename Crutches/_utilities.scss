@@ -89,6 +89,167 @@ $utilities: (
             "5": $base-margin * 8
         ),
     ),
+    "border-radius": (
+        "prefix": "br",
+        "values": (
+            "default": $base-border-radius,
+            "none": 0,
+            "xs": math.div($base-border-radius, 4),
+            "sm": math.div($base-border-radius, 2),
+            "lg": $base-border-radius * 2,
+            "full": 50%
+        ),
+    ),
+    "border-top-left-radius": (
+        "prefix": "btlr",
+        "values": (
+            "0": 5px,
+            "1": 10px,
+            "2": 15px,
+            "3": 20px,
+            "4": 25px,
+            "5": 50%
+        ),
+    ),
+    "border-top-right-radius": (
+        "prefix": "btrr",
+        "values": (
+            "0": 5px,
+            "1": 10px,
+            "2": 15px,
+            "3": 20px,
+            "4": 25px,
+            "5": 50%
+        ),
+    ),
+    "border-bottom-left-radius": (
+        "prefix": "bblr",
+        "values": (
+            "0": 5px,
+            "1": 10px,
+            "2": 15px,
+            "3": 20px,
+            "4": 25px,
+            "5": 50%
+        ),
+    ),
+    "border-bottom-right-radius": (
+        "prefix": "bbrr",
+        "values": (
+            "0": 5px,
+            "1": 10px,
+            "2": 15px,
+            "3": 20px,
+            "4": 25px,
+            "5": 50%
+        ),
+    ),
+    "opacity": (
+        "prefix": "o",
+        "values": (
+            "10": 0.1,
+            "20": 0.2,
+            "30": 0.3,
+            "40": 0.4,
+            "50": 0.5,
+            "60": 0.6,
+            "70": 0.7,
+            "80": 0.8,
+            "90": 0.8,
+            "100": 1
+        ),
+    ),
+    "display": (
+        "prefix": "d",
+        "values": (
+            "n": none,
+            "b": block,
+            "f": flex,
+            "i": inline,
+            "i-b": inline-block
+        ),
+    ),
+    "justify-content": (
+        "prefix": "jc",
+        "values": (
+            "fs": flex-start,
+            "fe": flex-end,
+            "c": center,
+            "sb": space-between,
+            "se": space-evenly,
+            "sa": space-around
+        ),
+    ),
+    "align-items": (
+        "prefix": "ai",
+        "values": (
+            "fs": flex-start,
+            "fe": flex-end,
+            "c": center,
+            "sb": space-between,
+            "se": space-evenly,
+            "sa": space-around
+        ),
+    ),
+    "flex-wrap": (
+        "prefix": "fw",
+        "values": (
+            "0": nowrap,
+            "w": wrap,
+            "wr": wrap-reverse
+        ),
+    ),
+    "text-align": (
+        "prefix": "ta",
+        "values": (
+            "l": left,
+            "r": right,
+            "c": center,
+            "e": end,
+            "j": justify,
+            "s": start
+        ),
+    ),
+    "font-size": (
+        "prefix": "fs",
+        "values": (
+            "default": $base-font-size,
+            "xs": $font-size-xs,
+            "s": $font-size-s,
+            "l": $font-size-l,
+            "xl": $font-size-xl,
+            "xxl": $font-size-xxl,
+            "xxxl": $font-size-xxxl
+        ),
+    ),
+    "height": (
+        "prefix": "h",
+        "values": (
+            "0": 0,
+            "auto": auto,
+            "min": min-content,
+            "max": max-content,
+            "screen": 100vh,
+            "1-4": 25%,
+            "1-2": 50%,
+            "3-4": 75%,
+            "full": 100%
+        ),
+    ),
+    "width": (
+        "prefix": "w",
+        "values": (
+            "0": 0,
+            "auto": auto,
+            "min": min-content,
+            "max": max-content,
+            "screen": 100vw,
+            "1-4": 25%,
+            "1-2": 50%,
+            "3-4": 75%,
+            "full": 100%
+        ),
+    ),
 );
 
 // generate the utility classes

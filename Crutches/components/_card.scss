@@ -9,6 +9,8 @@
     border-radius: math.div($base-border-radius, 2);
     max-width: 500px;
     max-height: 500px;
+    min-width: 250px;
+    min-height: 250px;
     overflow: hidden;
     margin: $base-margin;
     
@@ -29,13 +31,12 @@
         font-size: $base-font-size;
         padding: $base-padding 0;
         margin: $base-margin 0;
-        a {
-            text-decoration: none;
-            color: map-get($colors, 'info' );
-        }
     }
-    .button-right {
-        display: flex;
-        justify-content: flex-end;
-    }
+}
+.card img {
+    object-fit: cover;
+}
+
+.img-card {
+    
 }
