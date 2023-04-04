@@ -241,6 +241,25 @@ a {
   color: #000;
 }
 
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+}
+
 .text-primary {
   color: #326dee;
 }
@@ -4252,6 +4271,8 @@ a {
 
 .btn {
   text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
   border: 0;
@@ -4262,6 +4283,8 @@ a {
 
 .btn-primary {
   text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
   border: 0;
@@ -4275,6 +4298,8 @@ a {
 
 .btn-outlined-primary {
   text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
   border: 0;
@@ -4289,6 +4314,8 @@ a {
 
 .btn-complement-primary {
   text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
   border: 0;
@@ -4304,6 +4331,8 @@ a {
 
 .btn-complement-dark-primary {
   text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
   border: 0;
@@ -4319,6 +4348,8 @@ a {
 
 .btn-secondary {
   text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
   border: 0;
@@ -4332,6 +4363,8 @@ a {
 
 .btn-outlined-secondary {
   text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
   border: 0;
@@ -4346,6 +4379,8 @@ a {
 
 .btn-complement-secondary {
   text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
   border: 0;
@@ -4361,6 +4396,8 @@ a {
 
 .btn-complement-dark-secondary {
   text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
   border: 0;
@@ -4376,6 +4413,8 @@ a {
 
 .btn-error {
   text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
   border: 0;
@@ -4389,6 +4428,8 @@ a {
 
 .btn-outlined-error {
   text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
   border: 0;
@@ -4403,6 +4444,8 @@ a {
 
 .btn-complement-error {
   text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
   border: 0;
@@ -4418,6 +4461,8 @@ a {
 
 .btn-complement-dark-error {
   text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
   border: 0;
@@ -4433,6 +4478,8 @@ a {
 
 .btn-info {
   text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
   border: 0;
@@ -4446,6 +4493,8 @@ a {
 
 .btn-outlined-info {
   text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
   border: 0;
@@ -4460,6 +4509,8 @@ a {
 
 .btn-complement-info {
   text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
   border: 0;
@@ -4475,6 +4526,8 @@ a {
 
 .btn-complement-dark-info {
   text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
   border: 0;
@@ -4490,6 +4543,8 @@ a {
 
 .btn-red {
   text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
   border: 0;
@@ -4503,6 +4558,8 @@ a {
 
 .btn-outlined-red {
   text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
   border: 0;
@@ -4517,6 +4574,8 @@ a {
 
 .btn-complement-red {
   text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
   border: 0;
@@ -4532,6 +4591,8 @@ a {
 
 .btn-complement-dark-red {
   text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
   border: 0;
@@ -4547,6 +4608,8 @@ a {
 
 .btn-orange {
   text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
   border: 0;
@@ -4560,6 +4623,8 @@ a {
 
 .btn-outlined-orange {
   text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
   border: 0;
@@ -4574,6 +4639,8 @@ a {
 
 .btn-complement-orange {
   text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
   border: 0;
@@ -4589,6 +4656,8 @@ a {
 
 .btn-complement-dark-orange {
   text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
   border: 0;
@@ -4604,6 +4673,8 @@ a {
 
 .btn-yellow {
   text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
   border: 0;
@@ -4617,6 +4688,8 @@ a {
 
 .btn-outlined-yellow {
   text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
   border: 0;
@@ -4631,6 +4704,8 @@ a {
 
 .btn-complement-yellow {
   text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
   border: 0;
@@ -4646,6 +4721,8 @@ a {
 
 .btn-complement-dark-yellow {
   text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
   border: 0;
@@ -4661,6 +4738,8 @@ a {
 
 .btn-green {
   text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
   border: 0;
@@ -4674,6 +4753,8 @@ a {
 
 .btn-outlined-green {
   text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
   border: 0;
@@ -4688,6 +4769,8 @@ a {
 
 .btn-complement-green {
   text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
   border: 0;
@@ -4703,6 +4786,8 @@ a {
 
 .btn-complement-dark-green {
   text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
   border: 0;
@@ -4718,6 +4803,8 @@ a {
 
 .btn-blue {
   text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
   border: 0;
@@ -4731,6 +4818,8 @@ a {
 
 .btn-outlined-blue {
   text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
   border: 0;
@@ -4745,6 +4834,8 @@ a {
 
 .btn-complement-blue {
   text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
   border: 0;
@@ -4760,6 +4851,8 @@ a {
 
 .btn-complement-dark-blue {
   text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
   border: 0;
@@ -4775,6 +4868,8 @@ a {
 
 .btn-purple {
   text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
   border: 0;
@@ -4788,6 +4883,8 @@ a {
 
 .btn-outlined-purple {
   text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
   border: 0;
@@ -4802,6 +4899,8 @@ a {
 
 .btn-complement-purple {
   text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
   border: 0;
@@ -4817,6 +4916,8 @@ a {
 
 .btn-complement-dark-purple {
   text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
   border: 0;
@@ -4832,6 +4933,8 @@ a {
 
 .btn-gray {
   text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
   border: 0;
@@ -4845,6 +4948,8 @@ a {
 
 .btn-outlined-gray {
   text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
   border: 0;
@@ -4859,6 +4964,8 @@ a {
 
 .btn-complement-gray {
   text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
   border: 0;
@@ -4874,6 +4981,8 @@ a {
 
 .btn-complement-dark-gray {
   text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
   border: 0;
@@ -4889,6 +4998,8 @@ a {
 
 .btn-black {
   text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
   border: 0;
@@ -4902,6 +5013,8 @@ a {
 
 .btn-outlined-black {
   text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
   border: 0;
@@ -4916,6 +5029,8 @@ a {
 
 .btn-complement-black {
   text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
   border: 0;
@@ -4931,6 +5046,8 @@ a {
 
 .btn-complement-dark-black {
   text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
   border: 0;
@@ -4946,6 +5063,8 @@ a {
 
 .btn-white {
   text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
   border: 0;
@@ -4959,6 +5078,8 @@ a {
 
 .btn-outlined-white {
   text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
   border: 0;
@@ -4973,6 +5094,8 @@ a {
 
 .btn-complement-white {
   text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
   border: 0;
@@ -4988,6 +5111,8 @@ a {
 
 .btn-complement-dark-white {
   text-decoration: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   cursor: pointer;
   display: inline-block;
   border: 0;
