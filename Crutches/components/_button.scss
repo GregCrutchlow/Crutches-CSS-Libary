@@ -1,27 +1,49 @@
 @use "sass:math";
 
-@each $key, $val in $colors {
-    .btn-#{$key} {
-        text-decoration: none;
+@mixin btn($bg-color: #e2e2e2) {
+    text-decoration: none;
         cursor: pointer;
         display: inline-block;
         border: 0;
         padding: $base-padding $base-padding * 2;
         border-radius: math.div($base-border-radius, 2);
-        background-color: $val;
+        background-color: $bg-color;
+}
+
+.btn {
+    @include btn;
+}
+
+@each $key, $val in $colors {
+    .btn-#{$key} {
+        @include btn($val);
+        &:hover {
+            background-color: lighten($val, 15)
+        }
     }
     .btn-outlined-#{$key} {
-        text-decoration: none;
-        cursor: pointer;
-        display: inline-block;
-        border: $base-border-thickness * 2 solid $val;
-        padding: $base-padding $base-padding * 2;
-        border-radius: math.div($base-border-radius, 2);
-        background-color: white;
-        color: black;
+        @include btn(#fff);
+        border: $base-border-thickness solid $val;
         &:hover {
-            border: $base-border-thickness * 2 solid $val;
             background-color: $val;
         }
     }
+    .btn-complement-#{$key} {
+        @include btn($val);
+        color: light-comp($val);
+        &:hover {
+            color: $val;
+            background-color: light-comp($val);
+        }
+    }
+    .btn-complement-dark-#{$key} {
+        @include btn($val);
+        color: dark-comp($val);
+        &:hover {
+            color: $val;
+            background-color: dark-comp($val);
+        }
+    }
 }
+
+
