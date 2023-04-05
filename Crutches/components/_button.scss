@@ -5,7 +5,7 @@
     box-sizing: border-box;
     cursor: pointer;
     display: inline-block;
-    border: 0;
+    border: $base-border-thickness solid rgba(0,0,0,0);
     padding: $base-padding $base-padding * 2;
     border-radius: math.div($base-border-radius, 2);
     background-color: $bg-color;

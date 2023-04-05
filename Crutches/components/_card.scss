@@ -3,32 +3,67 @@
 .card {
     display: flex;
     flex-direction: column;
-    padding: $base-padding;
     border: $base-border-thickness solid #ddd;
     box-shadow: $base-box-shadow;
     border-radius: math.div($base-border-radius, 2);
-    max-width: 500px;
-    max-height: 500px;
+    max-width: 400px;
+    max-height: 350px;
     min-width: 250px;
-    min-height: 250px;
+    min-height: min-content;
     overflow: hidden;
     margin: $base-margin;
     .card-title {
         font-size: $font-size-xl;
-        padding-bottom: none;
+        padding: 0 $base-padding;
         margin: $base-margin 0;
         font-weight: 700;
     }
     .border-bottom {
         height: $base-border-thickness * 2;
         width: 50%;
+        margin: 0 $base-padding;
     }
     .card-body {
-        font-size: $base-font-size;
-        padding: $base-padding 0;
-        margin: $base-margin 0;
+        max-height: 150px;
+        padding: 0 $base-padding;
+        overflow: hidden;
+    }
+    .card-footer {
+        padding: $base-padding;
+        padding-top: 0;
+        display: flex;
+    }
+    .btn + .btn {
+        margin-left: $base-margin;
     }
 }
-.card img {
+
+.card-image {
+    overflow: hidden;
+    padding: 0;
+}
+
+.card-image > img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16/9;
     object-fit: cover;
+    max-height: 200px;
+    object-position: center;
+    transition: 0.2s transform ease-in;
+}
+
+.img-card {
+    overflow: hidden;
+}
+
+.img-card > img {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+
+.card:hover > .card-image > img {
+    transform: scale(1.025);
 }
